@@ -1,0 +1,274 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #e6e6e6;
+}
+.header{
+		background-color: #333333;
+}
+.header_top{
+	padding: 20px;
+}
+.logo{
+	margin-top: 14px;
+}
+.search_part{
+    width: 100%;
+    float: left;
+    position: relative;
+	}
+.search_part input{
+    width: 100%; 
+	height: 55px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 20px;
+	font-size: 15px;
+	outline: none;
+}
+
+.search_part button{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    background: #fb9455;
+}
+.search_part button i{
+	color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart_part{
+    width: 100%;
+    float: left;
+    text-align: right;
+    position: relative;
+}
+.cart_part button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #333333;
+    position: relative;
+    color: white;
+    font-size: 30px;   
+	outline: none;
+}
+.cart_count{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: none;
+    background: #fb9455;
+    color: white;
+    position: absolute;
+    padding-top: 2px;
+    right: -5px;
+    font-size: 14px;
+}
+.list-group-item:hover, .nav_option nav a:hover, .lists:hover{
+	color: #fb9455;
+	text-decoration: none;
+	    cursor: pointer;
+}
+.category_part p{
+    color: white;
+    background: #fb9455;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 0px;
+    font-weight: 700;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left;
+}
+.category_part p i {
+    font-size: 23px;
+    float: left;
+    margin-right: 10px;
+
+}
+.nav_option{
+		margin-top: 14px;
+}
+.nav_option nav a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-weight: 700;
+}
+.nav_option nav a: hover{
+	text-decoration: none;
+	color: #fb9455;;
+}
+.info_part a {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+	float: left;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.baner_left ul{
+    background: #f9f8f2;
+	
+}
+
+.banner_left ul li {
+    cursor: pointer;
+/* 	position: static; */
+	font-size: 13.5px;
+}
+.banner_right {
+    margin-top: 16px;
+    margin-left: -1px;
+}
+.layer2, .layer3{
+	margin-top: 30px;
+}
+.product_part img {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.deal_section {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: white;
+}
+.deal_head h2 {
+    display: inline-block;
+	margin-top: 16px;
+}
+
+.deal_head {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.deal_slider {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+.deal_head button {
+    background: #fb9455;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+	font-size: 14px;
+	outline: none;
+}
+
+.product_part, .product, .cloth, .footwear {
+    text-align: center;
+    cursor: pointer;
+
+}
+.slickk{
+	/* width: 1990px; */
+	
+}
+.product_part img {
+    margin: 0 auto;
+    width: 53%;
+}
+.daily img {
+    margin: 0 auto;
+    width: 52%;
+}
+.cloth img, .footwear img {
+    margin: 0 auto;
+    width: 92%;
+}
+.footwear img:hover  {
+/* 	margin: 0 auto;
+    width: 50%; */
+	transform: scale(1.3,1.3); 
+}
+.daily img:hover, .cloth img:hover, .product_part img:hover{
+	transform: scale(1.2,1.2);
+}
+.daily{
+	width: 200px;
+	height:300px;
+	float: left;
+	padding-top: 20px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.product_details {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+	font-size: 14px;
+}
+.product_details p:nth-child(2) {
+    color: #fb9455;
+}
+.foot{
+	margin-top: 30px;
+	background: #333333;
+	font-size: 14px;
+	color: gray;
+	padding: 20px;
+}
+.footer_part1 p{
+	color: white;
+}
+footer .abt {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    font-weight: 100;
+    color: gray;
+}
+.footer_part1 p {
+    font-weight: 400;
+}
+.footer_part1 ul li {
+    padding: 5px 0;
+}
+.footer_part1 ul{
+	padding: 0;
+}
+.abt a{
+	float: right;
+	color: #fb9455;
+}
+
+.copy_rights {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid gray;
+	background: #333333;
+	font-size: 14px;
+}
+
+
+
+
